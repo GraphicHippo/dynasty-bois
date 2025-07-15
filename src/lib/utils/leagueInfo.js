@@ -7,13 +7,13 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Founded in 2024, Dy-Nasty Bois has a variety of folks that the Commish, Riley, has assembled. While still getting to know each other, the league has focused on trades as each roster begins to take shape in the early years. 
-  Seeing 21 trades during the inaugural season spearheaded by ZeroPoints and Fine Charbonnet both particpating in 7 trades. Early returns are looking good for 2025 as 16 trades have already occured and the preseason hasn't even begun yet. </p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Founded in 2024, Dy-Nasty Bois features a diverse group of managers assembled by Commish, Hipsters Do Sports. It was clear that each manager brought a unique strategy to the startup draft. 
+  Some teams took a youth-centric approach, collecting many high-end rookies with hopes of dealing them later to address roster weaknesses. Others let the majority of the league spend early, then scooped up mid-range talent at a discount to build deep rosters. 
+  The most common theme, however, was a win-now mentality—targeting a blend of high-end talent in their prime and still-productive, battle-tested veterans. Of course, a few managers dove in with little strategy, panic-buying their way through the draft.</p>
+  <p>As rosters take shape in these early years, trades have become the primary way for managers to both build their teams and get to know one another. The inaugural season saw 21 trades, led by ZeroPoints and Fine Charbonnet, who each participated in seven. 
+  Early returns for 2025 are promising, with 16 trades already completed, and the preseason hasn’t even begun.</p>
+  <p>As Dy-Nasty Bois enters its second season, the league is already proving to be as dynamic and unpredictable as its name suggests. With rivalries forming, trade blocks heating up, and bold strategies beginning to pay off—or backfire—there’s no shortage of drama. 
+  Whether you're rebuilding, reloading, or just along for the ride, one thing is certain: in this league, there’s never a dull moment.</p>
 `;
 
 /*   STEP 3   */
