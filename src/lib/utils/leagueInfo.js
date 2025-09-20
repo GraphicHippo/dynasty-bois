@@ -27,26 +27,26 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
   {
     "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    "managerID" : "453315591055339520",
-    "name": "Jeremy Enzenauer",
+    "managerID" : "868271102986747904",
+    "name": "Chase Ernste",
     "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-    "location": "Rochester, MN", // (optional)
-    "bio": "Lorem ipsum...",
-    "photo": "/managers/JeremyEnzenauer.jpg", // square ratio recommended (no larger than 500x500)
-    "fantasyStart": 2012, // (optional) when did the manager start playing fantasy football
+    "location": "Duluth, MN", // (optional)
+    "bio": "I’m a 26 y.o. Civil Engineer who’s in way too many fantasy leagues & the commish of 3. I watch YouTube videos about dynasty because of this league & like to remind Riley of how I defeated him in the championship last year!",
+    "photo": "/managers/ChaseErnste.jpg", // square ratio recommended (no larger than 500x500)
+    "fantasyStart": 2011, // (optional) when did the manager start playing fantasy football
     "favoriteTeam": "min", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
     "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
     "rival": {
-      name: "Whet Whistle", // Can be anything (usually your rival's name)
-      link: 6, // manager array number within this array, or null to link back to all managers page
-      image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      name: "ZeroPoints", // Can be anything (usually your rival's name)
+      link: 2, // manager array number within this array, or null to link back to all managers page
+      image: "/managers/KyleMiddleton.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
     },
-    "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+    "favoritePlayer": 6794, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
     "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-    "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-    "philosophy": "Your fantasy team's philosophy",
-    "tradingScale": 10, // 1 - 10
-    "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+    "philosophy": "Take the vets nobody cares about on a discount & surround them with talent.",
+    "tradingScale": 5, // 1 - 10
+    "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
     "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
