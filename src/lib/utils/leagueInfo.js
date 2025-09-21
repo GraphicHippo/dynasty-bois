@@ -96,25 +96,26 @@ export const managers = [
     },
    {
     "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    "name": "Your Name",
+    "managerID" : "453315591055339520",
+    "name": "Jeremy Enzenauer",
     "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-    "location": "Brooklyn", // (optional)
-    "bio": "Lorem ipsum...",
-    "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-    "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-    "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+    "location": "Rochester, MN", // (optional)
+    "bio": "Sports fella — worked for MLB for four years, based out of Target Field. Big disc golf guy. Definitely on the spectrum in some capacity. I’ve got a bunch of half-started, tech-related hobbies: coding, web design, PC building, 3D printing, Raspberry Pi projects, and way too many RPGs — you get the picture. Proud tree farmer. I live with my girlfriend and her 6-year-old son. Football is watched in a Lovesac on a 90 inch projected screen — as it should be. Games I’m into: Call of Duty, PowerWash Simulator, Stardew Valley. If it’s something I can party up in, I’m down. Currently working in marketing for the Rochester School District, but I’m itching for a career change — probably not surprisingly, thinking about something in tech. Naz Reid.",
+    "photo": "/managers/JeremyEnzenauer.jpg", // square ratio recommended (no larger than 500x500)
+    "fantasyStart": 2012, // (optional) when did the manager start playing fantasy football
+    "favoriteTeam": "min", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
     "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
     "rival": {
-      name: "Rival", // Can be anything (usually your rival's name)
-      link: 6, // manager array number within this array, or null to link back to all managers page
-      image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      name: "Everyone", // Can be anything (usually your rival's name)
+      link: null, // manager array number within this array, or null to link back to all managers page
+      image: "/managers/everyone.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
     },
-    "favoritePlayer": null, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-    "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+    "favoritePlayer": 9493, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+    "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
     "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-    "philosophy": "Trust the process.",
+    "philosophy": "Give me depth or give me death. Fantasy football is 60% skill and 40% luck. With that said, I cash out at a crazy rate so come at me. ",
     "tradingScale": 10, // 1 - 10
-    "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
   {
     "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
