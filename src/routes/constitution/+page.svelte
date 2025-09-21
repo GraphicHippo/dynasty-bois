@@ -293,8 +293,8 @@
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: {dues * 8}$</li>
-        <li>2nd place: {dues * 1}$</li>
+        <li>1st place: ${dues * 8}</li>
+        <li>2nd place: ${dues * 1}</li>
     </ul>
     <p>$50 goes into the league “pot” each season and is paid out to the first team to win three championships total. Each season you are paying for next years fee. You forfeit next years fee if you drop out.</p>
     
