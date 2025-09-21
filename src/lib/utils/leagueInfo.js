@@ -73,25 +73,33 @@ export const managers = [
     },
     {
     "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    "name": "Your Name",
+    "managerID" : "535896390002647040",
+    "name": "Kyle Middleton",
     "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-    "location": "Brooklyn", // (optional)
-    "bio": "Lorem ipsum...",
-    "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-    "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-    "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-    "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+    "location": "Maple Grove, MN", // (optional)
+    "bio": "eam Name: Zero Points
+    Philosophy: Winning is temporary. Draft picks are eternal.
+    Style: Go big, go broke, then trade the broken pieces for next year’s gold.
+    Emerging from the ashes of a 0.00 fantasy week with nothing but hubris and a stack of conditional 4th-rounders, Zero Points is not here to play it safe. This manager doesn’t chase points—they chase futures, flipping players mid-game, mid-breath, mid-existential crisis.
+    📈 Accomplishments Include:
+    • Traded away entire starting lineup for “a better draft board aesthetic.”
+    • Pulled off a 9-team trade in Week 3 that left 14 managers emotionally compromised.
+    • Refused to start a player unless they were acquired via trade AND had dramatic backstory.",
+    "photo": "/managers/KyleMiddleton.jpg", // square ratio recommended (no larger than 500x500)
+    "fantasyStart": 2012, // (optional) when did the manager start playing fantasy football
+    "favoriteTeam": "min", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+    "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
     "rival": {
-      name: "Rival", // Can be anything (usually your rival's name)
-      link: 6, // manager array number within this array, or null to link back to all managers page
-      image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      name: "Everyone", // Can be anything (usually your rival's name)
+      link: null, // manager array number within this array, or null to link back to all managers page
+      image: "/managers/everyone.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
     },
-    "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+    "favoritePlayer": null, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
     "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
     "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-    "philosophy": "Your fantasy team's philosophy",
+    "philosophy": "If your not first , you’re last.",
     "tradingScale": 10, // 1 - 10
-    "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
    {
     "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
