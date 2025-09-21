@@ -14,7 +14,7 @@ export const homepageText = `
   <p>As Dy-Nasty Bois enters its second season, the league is already proving to be as dynamic and unpredictable as its name suggests. With rivalries forming, trade blocks heating up, and bold strategies beginning to pay off—or backfire—there’s no shortage of drama. 
   Whether you're rebuilding, reloading, or just along for the ride, one thing is certain: in this league, there’s never a dull moment.</p>
   -----------------------------------------------------------------------------------------------------------------------------
-  <p>Suggestions for edits to the league can be submitted here. *link TBD*. Each offseason, before the rookie draft, submissions will be reviewed and put to a league-wide vote.</p>
+  <p>Suggestions for edits to the league can be submitted here *link TBD*. Each offseason, before the rookie draft, submissions will be reviewed and put to a league-wide vote.</p>
 `;
 
 /*   STEP 3   */
