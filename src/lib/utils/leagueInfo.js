@@ -170,7 +170,7 @@ export const managers = [
     "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     "location": "Arlington, VA", // (optional)
     "bio": "Born and raised in Wisconsin, got my BA at UMD where I met folks like Jake and Riley. Moved to DC to get my MA. I've been working at various govt jobs since 2019, currently employed at the National Archives. Recently got married and that was pretty cool. Big fan of smoked brisket and gaming. ",
-    "photo": "/managers/GaretAL.jpg", // square ratio recommended (no larger than 500x500)
+    "photo": "/managers/GaretAL.JPG", // square ratio recommended (no larger than 500x500)
     "fantasyStart": 2012, // (optional) when did the manager start playing fantasy football
     "favoriteTeam": "gb", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
     "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -188,24 +188,25 @@ export const managers = [
     },
   {
     "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    "name": "Your Name",
+    "managerID" : "1071950132188385280",
+    "name": "Michael Teeters",
     "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-    "location": "Brooklyn", // (optional)
-    "bio": "Lorem ipsum...",
-    "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-    "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-    "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+    "location": "Maple Grove, MN", // (optional)
+    "bio": "Love my Vikings and Cornhuskers. Just had a baby girl so just trying to survive!",
+    "photo": "/managers/MikeTeeters.jpg", // square ratio recommended (no larger than 500x500)
+    "fantasyStart": 2010, // (optional) when did the manager start playing fantasy football
+    "favoriteTeam": "min", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
     "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
     "rival": {
-      name: "Rival", // Can be anything (usually your rival's name)
-      link: 6, // manager array number within this array, or null to link back to all managers page
-      image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+      name: "mudbutt93", // Can be anything (usually your rival's name)
+      link: 9, // manager array number within this array, or null to link back to all managers page
+      image: "/managers/ChrisLuebke.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
     },
-    "favoritePlayer": null, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+    "favoritePlayer": 6794, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
     "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-    "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-    "philosophy": "Trust the process.",
-    "tradingScale": 10, // 1 - 10
+    "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+    "philosophy": "Running backs, running backs, running backs.",
+    "tradingScale": 7, // 1 - 10
     "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
   {
