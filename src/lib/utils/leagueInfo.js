@@ -13,7 +13,7 @@ export const homepageText = `
   <p>As rosters take shape in these early years, trades have become the primary way for managers to both build their teams and get to know one another. The inaugural season saw 21 trades, led by ZeroPoints and Fine Charbonnet, who each participated in seven. </p>
   <p>As Dy-Nasty Bois enters its second season, the league is already proving to be as dynamic and unpredictable as its name suggests. With rivalries forming, trade blocks heating up, and bold strategies beginning to pay off—or backfire—there’s no shortage of drama. 
   Whether you're rebuilding, reloading, or just along for the ride, one thing is certain: in this league, there’s never a dull moment.</p>
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ---------------------------------------------------------------------------------
   <p>All suggestions for edits to the league can be shared here *link TBD*, all submissions will be reviewed and put up for a vote by the league each offseason BEFORE the leagues rookie draft takes place.</p>
 `;
 
