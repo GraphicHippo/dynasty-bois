@@ -96,8 +96,9 @@
 </style>
 
 <div class="constitution">
-    <h1 class="noUnderscore">DY-NASTY BOIS CONSTITUTION</h1>
-    <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
+    <h1 class="noUnderscore">DY-NASTY BOIS LEAGUE CHARTER</h1>
+    <p>It’s time to put on your big boi pants…</p>
+
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     
     <h3 class="noUnderscore clickable" onclick={() => goToSection(one)}>Section 1: Roster</h3>
