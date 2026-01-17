@@ -203,9 +203,12 @@
 
     <h3 bind:this={oneThree}>1.3 Payouts</h3>
 
-    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
-
-    <p>FAAB budgets will reset each season in January.</p>
+    <p>League payout is structured as follows:</p>
+    <ul>
+        <li>1st place: ${dues * 8}</li>
+        <li>2nd place: ${dues * 1}</li>
+    </ul>
+    <p>$50 goes into the league “pot” each season and is paid out to the first team to win three championships total. </p>
 
 
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
