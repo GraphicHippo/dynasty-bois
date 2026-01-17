@@ -182,23 +182,11 @@
 
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Buy-In</h3>
 
-    <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process immediately and will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
+    <p>$50</p>
 
-    <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
+    <h4 bind:this={oneTwoOne}>1.2.1 Dues Deadline</h4>
     <div class="subBlock">
-        <p>If any owners are suspected of accepting bribes/offering bribes to enhance their/another owners team via trade, trading any assets other than fantasy players, draft picks, FAAB $, or otherwise found guilty of engaging in any form of collusion*, all parties involved in the trade will be susceptible to punishment. The punishments will go as followed:</p>
-
-        <ul>
-            <li>First Offense – Immediate reduction of FAAB budget by 80%</li>
-            <li>Second Offense – Immediate freeze on all transaction types for the next 18 weeks of regular season and playoff fantasy football games, including trades and waiver wire bids</li>
-            <li>Third Offense – A league meeting of all members not involved in any of the improper trades/activity in question will take place to discuss next steps.</li>
-        </ul>
-
-        <p>All trades that are found guilty of collusion, will be reversed/denied. If the trade had affected the outcome of previous games, the results of those games will be revised.  </p>
-
-        <p>*Collusion includes the organizing of veto votes against an acceptable trade.</p>
-
-        <p>The commissioner will err on the side of letting owners manage their teams the way they see fit. Any collusion will need to be clear. The commissioner reserves the right to step in and at the very least assess the thinking of any team involved in a heavily lop-sided trade. </p>
+        <p>League dues must be paid by the 1st of August each year. If a manager fails to pay before the deadline a 10% fee will be added to their dues that will go towards that season's payout.</p>
     </div>
 
     <h4 bind:this={oneTwoTwo}>1.2.2 Lending Players Prohibition</h4>
