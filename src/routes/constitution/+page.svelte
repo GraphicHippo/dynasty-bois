@@ -189,14 +189,14 @@
         <p>League dues must be paid by the 1st of August each year. If a manager fails to pay before the deadline a 10% fee will be added to their dues that will go towards that season's payout.</p>
     </div>
 
-    <h4 bind:this={oneTwoTwo}>1.2.2 Lending Players Prohibition</h4>
+    <h4 bind:this={oneTwoTwo}>1.2.2 Startup Costs</h4>
     <div class="subBlock">
-        <p>Any player traded from a team may not be re-acquired via trade within 6 weeks of the original trade. Any teams involved in this behavior will be subject to the aforementioned collusion punishments.</p>
+        <p>For the first year, pay this year and next year's fee. Each year after that only pay next year's fee. This is to keep everyone invested and playing. You forfeit next year's fee if you drop out.</p>
     </div>
 
-    <h4 bind:this={oneTwoThree}>1.2.3 Trade Deadline</h4>
+    <h4 bind:this={oneTwoThree}>1.2.3 Paying Ahead</h4>
     <div class="subBlock">
-        <p>The trade deadline will be set for the Saturday of the week 11 games of the NFL season.</p>
+        <p>If any trades include future picks, the owner sending the picks has to have buy-ins paid at the time of the trade. (I.e. if the year is 2025 and someone wants to deal a 2028 pick they will have to pre-pay for the 2027 and 2028 season.)</p>
     </div>
 
     <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
