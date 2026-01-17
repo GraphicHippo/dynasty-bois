@@ -177,12 +177,12 @@
 
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 League Size</h3>
 
-    <p>1o Teams</p>
+    <p>10 Teams</p>
 
 
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Buy-In</h3>
 
-    <p>$50</p>
+    <p>$50 Yearly</p>
 
     <h4 bind:this={oneTwoOne}>1.2.1 Dues Deadline</h4>
     <div class="subBlock">
