@@ -103,7 +103,6 @@
     
     <h3 class="noUnderscore clickable" onclick={() => goToSection(one)}>Section 1: General Information</h3>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneOne)}>1.1 League Size</h4>
-            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneTwo)}>1.2 Buy-In</h4>
             <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoOne)}>1.2.1 Payment Deadline</h5>
             <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoTwo)}>1.2.2 Startup Cost</h5>
@@ -112,13 +111,22 @@
 
     <h3 class="noUnderscore clickable" onclick={() => goToSection(two)}>Section 2: Drafting</h3>
     
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoOne)}>2.1 Draft Order</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoOne)}>2.1 Start-Up</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoTwo)}>2.2 Rookie Drafts</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoThree)}>2.3 Draft Day Trades</h4>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(twoTwoOne)}>2.2.1 Format</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(twoTwoTwo)}>2.2.2 Seeding</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(twoTwoThree)}>2.2.3 Temporary Roster Expansion</h5>
     
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(three)}>Section 3: Scoring System</h3>
-    
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(threeOne)}>3.1 Voting on Scoring System</h4>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(three)}>Section 3: Team Construction</h3>
+
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(threeOne)}>3.1 Roster Breakdown</h4>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(threeOneOne)}>3.1.1 Starting</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(threeOneTwo)}>3.1.2 Bench</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(threeOneThree)}>3.1.3 Taxi</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(threeOneFour)}>3.1.4 IR</h5>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(threeOne)}>3.2 Weekly Lineups</h4>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(threeTwoOne)}>3.2.1 Requirements</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(threeTwoTwo)}>3.2.2 Violations</h5>
     
     <h3 class="noUnderscore clickable" onclick={() => goToSection(four)}>Section 4: Postseason</h3>
     
