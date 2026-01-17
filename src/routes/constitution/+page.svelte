@@ -199,19 +199,9 @@
         <p>If any trades include future picks, the owner sending the picks has to have buy-ins paid at the time of the trade. (I.e. if the year is 2025 and someone wants to deal a 2028 pick they will have to pre-pay for the 2027 and 2028 season.)</p>
     </div>
 
-    <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
-    <div class="subBlock">
-        <p>You will not be able to trade draft picks that are more than 3 drafts away. For example, during the 2021 season you cannot trade any picks in or after the 2025 draft. You may only trade FAAB $ from the current season.</p>
-    </div>
-
-    <h4 bind:this={oneTwoFive}>1.2.5 Veto/Trade Process</h4>
-    <div class="subBlock">
-        <p>A total of 7 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a backup kicker). Not liking a trade does not warrant a veto.</p>
-    </div>
 
 
-
-    <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
+    <h3 bind:this={oneThree}>1.3 Payouts</h3>
 
     <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
 
