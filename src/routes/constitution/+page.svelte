@@ -263,8 +263,15 @@
 
     <h2 class="sectionHeading" bind:this={four}>Section 4 Scoring</h2>
 
-       <h3 bind:this={fourOne}>4.1 Playoffs</h3>
-    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. Each team that wins their division and the 4 wild card teams that finish with the best records, will receive a playoff berth. The 2 teams that win their division will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
+       <h3 bind:this={fourOne}>4.1 Passing</h3>
+        <p>Determining the seeding for the teams eliminated from the playoffs will be as follows:</p>
+
+    <ul>
+        <li>After week one of the playoffs, two teams will be eliminated. The team with the lowest points in that week will be the 5th draft pick in  next year's draft. The eliminated team with the higher points for will be the 6th seed in the next year's draft.</li>
+        <li>The same concept will apply to teams eliminated from the semi-final round. The eliminated team with the lower score will receive the 7th pick in the draft, and the eliminated team with the higher score will receive the 8th pick in the following year’s draft.</li>
+        <li>The lowest 4 teams (teams who didn’t make the playoffs) will be put in a lottery for the first pick. This is to disincentivize tanking.</li>
+    </ul>
+    </div>
 
     <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
     <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
