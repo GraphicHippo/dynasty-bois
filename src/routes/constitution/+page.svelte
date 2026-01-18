@@ -272,17 +272,13 @@
         <li>1 point per 40+ yard touchdown thrown bonus</li>
     </ul>
 
-    <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
-    <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
-
-    <ol>
-        <li>Points For</li>
-        <li>Head 2 Head Record</li>
-        <li>Division Record</li>
-        <li>Total Points Against</li>
-        <li>Coin Flip</li>
-        <li>Duel to the death</li>
-    </ol>
+    <h3 bind:this={fourTwo}>4.2 Rushing</h3>
+    <ul>
+        <li>1 point per every 10 yards</li>
+        <li>6 points per rushing TD</li>
+        <li>2 points per 2-point conversion</li>
+        <li>1 point per 40+ yard rushing TD bonus</li>
+    </ul>
 
     <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
     
