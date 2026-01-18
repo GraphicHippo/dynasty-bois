@@ -137,7 +137,6 @@
         <h4 class="noUnderscore clickable" onclick={() => goToSection(fourThree)}>4.3 Divisions</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(fourFour)}>4.4 Tiebreakers</h4>
 
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(five)}>Section 5: Tanking Policy</h3>
     <h3 class="noUnderscore clickable" onclick={() => goToSection(five)}>Section 5: Waivers/Trades</h3>
 
         <h4 class="noUnderscore clickable" onclick={() => goToSection(fiveOne)}>5.1 League Tanking Policy</h4>
@@ -262,22 +261,53 @@
         <p>2 players maximum that are ruled "out" or "IR" any given week.</p>
     </div>
 
-    <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
+    <h2 class="sectionHeading" bind:this={four}>Section 4 Scoring</h2>
 
-    <h3 bind:this={fourOne}>4.1 Playoffs</h3>
+    <h3 bind:this={fourOne}>4.1 Passing</h3>
+        <p>Determining the seeding for the teams eliminated from the playoffs will be as follows:</p>
+
+    <ul>
+        <li>After week one of the playoffs, two teams will be eliminated. The team with the lowest points in that week will be the 5th draft pick in  next year's draft. The eliminated team with the higher points for will be the 6th seed in the next year's draft.</li>
+        <li>The same concept will apply to teams eliminated from the semi-final round. The eliminated team with the lower score will receive the 7th pick in the draft, and the eliminated team with the higher score will receive the 8th pick in the following year’s draft.</li>
+        <li>The lowest 4 teams (teams who didn’t make the playoffs) will be put in a lottery for the first pick. This is to disincentivize tanking.</li>
+    </ul>
+    </div>
+
+    <h3 bind:this={fourTwo}>4.2 Rushing</h3>
+    <p>Determining the seeding for the teams eliminated from the playoffs will be as follows:</p>
+
+    <ul>
+        <li>After week one of the playoffs, two teams will be eliminated. The team with the lowest points in that week will be the 5th draft pick in  next year's draft. The eliminated team with the higher points for will be the 6th seed in the next year's draft.</li>
+        <li>The same concept will apply to teams eliminated from the semi-final round. The eliminated team with the lower score will receive the 7th pick in the draft, and the eliminated team with the higher score will receive the 8th pick in the following year’s draft.</li>
+        <li>The lowest 4 teams (teams who didn’t make the playoffs) will be put in a lottery for the first pick. This is to disincentivize tanking.</li>
+    </ul>
+    </div>
+
+    <h3 bind:this={fourThree}>4.3 Receiving</h3>
+    <p>Determining the seeding for the teams eliminated from the playoffs will be as follows:</p>
+
+    <ul>
+        <li>After week one of the playoffs, two teams will be eliminated. The team with the lowest points in that week will be the 5th draft pick in  next year's draft. The eliminated team with the higher points for will be the 6th seed in the next year's draft.</li>
+        <li>The same concept will apply to teams eliminated from the semi-final round. The eliminated team with the lower score will receive the 7th pick in the draft, and the eliminated team with the higher score will receive the 8th pick in the following year’s draft.</li>
+        <li>The lowest 4 teams (teams who didn’t make the playoffs) will be put in a lottery for the first pick. This is to disincentivize tanking.</li>
+    </ul>
+    </div>
+
+    <h3 bind:this={fourFour}>4.4 Misc</h3>
+    <p>Determining the seeding for the teams eliminated from the playoffs will be as follows:</p>
+
+    <ul>
+        <li>After week one of the playoffs, two teams will be eliminated. The team with the lowest points in that week will be the 5th draft pick in  next year's draft. The eliminated team with the higher points for will be the 6th seed in the next year's draft.</li>
+        <li>The same concept will apply to teams eliminated from the semi-final round. The eliminated team with the lower score will receive the 7th pick in the draft, and the eliminated team with the higher score will receive the 8th pick in the following year’s draft.</li>
+        <li>The lowest 4 teams (teams who didn’t make the playoffs) will be put in a lottery for the first pick. This is to disincentivize tanking.</li>
+    </ul>
+    </div>
+
+    <h3 bind:this={fourFive}>4.5 Divisions</h3>
     <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. Each team that wins their division and the 4 wild card teams that finish with the best records, will receive a playoff berth. The 2 teams that win their division will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
 
-    <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
-    <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
-
-    <ol>
-        <li>Points For</li>
-        <li>Head 2 Head Record</li>
-        <li>Division Record</li>
-        <li>Total Points Against</li>
-        <li>Coin Flip</li>
-        <li>Duel to the death</li>
-    </ol>
+    <h3 bind:this={fourSix}>4.6 Tiebreakers</h3>
+    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. Each team that wins their division and the 4 wild card teams that finish with the best records, will receive a playoff berth. The 2 teams that win their division will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
 
     <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
     
