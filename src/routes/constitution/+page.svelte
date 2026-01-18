@@ -247,22 +247,22 @@
 
     <h4 bind:this={threeOneOne}>3.1.1 Starters</h4>
     <div class="subBlock">
-        <p>League dues must be paid by the 1st of August each year. If a manager fails to pay before the deadline a 10% fee will be added to their dues that will go towards that season's payout.</p>
+        <p>9 total players. 1 QB, 2 RB, 2 WR, 1 TE, 2 Flex (RB/WR/TE), 1 Super Flex (RB/WR/TE/QB)</p>
     </div>
 
     <h4 bind:this={threeOneTwo}>3.1.2 Bench</h4>
     <div class="subBlock">
-        <p>For the first year, pay this year and next year's fee. Each year after that only pay next year's fee. This is to keep everyone invested and playing. You forfeit next year's fee if you drop out.</p>
+        <p>19 players.</p>
     </div>
 
     <h4 bind:this={threeOneThree}>3.1.3 Taxi</h4>
     <div class="subBlock">
-        <p>If any trades include future picks, the owner sending the picks has to have buy-ins paid at the time of the trade. (I.e. if the year is 2025 and someone wants to deal a 2028 pick they will have to pre-pay for the 2027 and 2028 season.)</p>
+        <p>A taxi squad is a set number of players on your roster who do not count toward your overall roster limit. A maximum of 4 rookies can be added to your taxi prior to the start of the regular season. Players with more than 2 years of experience must be removed from the taxi. Once a players is activiated they cannot be re-added to the taxi squad.</p>
     </div>
 
     <h4 bind:this={threeOneFour}>3.1.4 IR</h4>
     <div class="subBlock">
-        <p>If any trades include future picks, the owner sending the picks has to have buy-ins paid at the time of the trade. (I.e. if the year is 2025 and someone wants to deal a 2028 pick they will have to pre-pay for the 2027 and 2028 season.)</p>
+        <p>2 players maximum that are ruled "out" or "IR" any given week.</p>
     </div>
 
     <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
