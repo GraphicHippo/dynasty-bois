@@ -217,21 +217,30 @@
     <p>The original draft was done in auction format with 28 rounds including Veterans and Rookies with a $500 budget per team.</p>
 
     <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
-    <p>Every year after the start up draft a rookie draft will be held, only incoming rookies to the NFL will be eligible</p>
+    <p>Every year after the start up draft a rookie draft will be held, only incoming rookies to the NFL will be eligible.</p>
 
 <h4 bind:this={twoTwoOne}>2.2.1 Format</h4>
     <div class="subBlock">
-        <p>League dues must be paid by the 1st of August each year. If a manager fails to pay before the deadline a 10% fee will be added to their dues that will go towards that season's payout.</p>
+        <p>The draft will be four rounds, in reverse order of team finishes from the previous season (lowest rank picks first, highest rank picks last). This is not a snake draft, the team who holds the first pick in the first round will hold the first pick in the second round (unless traded).</p>
     </div>
 
     <h4 bind:this={twoTwoTwo}>2.2.2 Seeding</h4>
     <div class="subBlock">
-        <p>For the first year, pay this year and next year's fee. Each year after that only pay next year's fee. This is to keep everyone invested and playing. You forfeit next year's fee if you drop out.</p>
+    <p>Determining the seeding for the teams eliminated from the playoffs will be as follows:</p>
+
+    <ol>
+        <li>Points For</li>
+        <li>Head 2 Head Record</li>
+        <li>Division Record</li>
+        <li>Total Points Against</li>
+        <li>Coin Flip</li>
+        <li>Duel to the death</li>
+    </ol>
     </div>
 
     <h4 bind:this={twoTwoThree}>2.2.3 Temporary Roster Expansion</h4>
     <div class="subBlock">
-        <p>If any trades include future picks, the owner sending the picks has to have buy-ins paid at the time of the trade. (I.e. if the year is 2025 and someone wants to deal a 2028 pick they will have to pre-pay for the 2027 and 2028 season.)</p>
+        <p>Team sizes will be expanded by 4 players prior to the draft and dropped back down to 28 one week before the NFL season.</p>
     </div>
 
     <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
