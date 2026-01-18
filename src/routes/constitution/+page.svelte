@@ -264,12 +264,12 @@
     <h2 class="sectionHeading" bind:this={four}>Section 4 Scoring</h2>
 
        <h3 bind:this={fourOne}>4.1 Passing</h3>
-        <p>Determining the seeding for the teams eliminated from the playoffs will be as follows:</p>
-
     <ul>
-        <li>After week one of the playoffs, two teams will be eliminated. The team with the lowest points in that week will be the 5th draft pick in  next year's draft. The eliminated team with the higher points for will be the 6th seed in the next year's draft.</li>
-        <li>The same concept will apply to teams eliminated from the semi-final round. The eliminated team with the lower score will receive the 7th pick in the draft, and the eliminated team with the higher score will receive the 8th pick in the following year’s draft.</li>
-        <li>The lowest 4 teams (teams who didn’t make the playoffs) will be put in a lottery for the first pick. This is to disincentivize tanking.</li>
+        <li>1 point per every 20 yards (changed from 25 yards in most standard formats)</li>
+        <li>4 points per passing TD</li>
+        <li>2 points per 2-point conversion</li>
+        <li>-2 points per interception</li>
+        <li>1 point per 40+ yard touchdown thrown bonus</li>
     </ul>
 
     <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
