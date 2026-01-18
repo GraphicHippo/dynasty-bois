@@ -240,10 +240,30 @@
         <p>Team sizes will be expanded by 4 players prior to the draft and dropped back down to 28 one week before the NFL season.</p>
     </div>
 
-    <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
+    <h2 class="sectionHeading" bind:this={three}>Section 3 Team Construction</h2>
 
-    <h3 bind:this={threeOne}>3.1 Scoring System</h3>
-    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical .5PPR Scoring). The scoring system will never change without a majority league vote.</p>
+    <h3 bind:this={threeOne}>3.1 Roster Breakdown</h3>
+    <p>Teams have 32 total roster spaces plus 2 IR slots.</p>
+
+    <h4 bind:this={threeOneOne}>3.1.1 Starters</h4>
+    <div class="subBlock">
+        <p>League dues must be paid by the 1st of August each year. If a manager fails to pay before the deadline a 10% fee will be added to their dues that will go towards that season's payout.</p>
+    </div>
+
+    <h4 bind:this={threeOneTwo}>3.1.2 Bench</h4>
+    <div class="subBlock">
+        <p>For the first year, pay this year and next year's fee. Each year after that only pay next year's fee. This is to keep everyone invested and playing. You forfeit next year's fee if you drop out.</p>
+    </div>
+
+    <h4 bind:this={threeOneThree}>3.1.3 Taxi</h4>
+    <div class="subBlock">
+        <p>If any trades include future picks, the owner sending the picks has to have buy-ins paid at the time of the trade. (I.e. if the year is 2025 and someone wants to deal a 2028 pick they will have to pre-pay for the 2027 and 2028 season.)</p>
+    </div>
+
+    <h4 bind:this={threeOneFour}>3.1.4 IR</h4>
+    <div class="subBlock">
+        <p>If any trades include future picks, the owner sending the picks has to have buy-ins paid at the time of the trade. (I.e. if the year is 2025 and someone wants to deal a 2028 pick they will have to pre-pay for the 2027 and 2028 season.)</p>
+    </div>
 
     <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
 
