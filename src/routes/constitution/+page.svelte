@@ -228,14 +228,10 @@
     <div class="subBlock">
     <p>Determining the seeding for the teams eliminated from the playoffs will be as follows:</p>
 
-    <ol>
-        <li>Points For</li>
-        <li>Head 2 Head Record</li>
-        <li>Division Record</li>
-        <li>Total Points Against</li>
-        <li>Coin Flip</li>
-        <li>Duel to the death</li>
-    </ol>
+    <ul>
+        <li>1st place: ${dues * 8}</li>
+        <li>2nd place: ${dues * 1}</li>
+    </ul>
     </div>
 
     <h4 bind:this={twoTwoThree}>2.2.3 Temporary Roster Expansion</h4>
