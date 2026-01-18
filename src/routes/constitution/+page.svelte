@@ -217,11 +217,22 @@
     <p>The original draft was done in auction format with 28 rounds including Veterans and Rookies with a $500 budget per team.</p>
 
     <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
-    <p>Rokkie drafts will consist of 3 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
-    <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
+    <p>Every year after the start up draft a rookie draft will be held, only incoming rookies to the NFL will be eligible</p>
 
-    <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
-    <p>If a trade is being made during the draft, one or both parties can alert the commissioner to pause the draft to allow for extra time to negotiate the trade.</p>
+<h4 bind:this={twoTwoOne}>2.2.1 Format</h4>
+    <div class="subBlock">
+        <p>League dues must be paid by the 1st of August each year. If a manager fails to pay before the deadline a 10% fee will be added to their dues that will go towards that season's payout.</p>
+    </div>
+
+    <h4 bind:this={twoTwoTwo}>2.2.2 Seeding</h4>
+    <div class="subBlock">
+        <p>For the first year, pay this year and next year's fee. Each year after that only pay next year's fee. This is to keep everyone invested and playing. You forfeit next year's fee if you drop out.</p>
+    </div>
+
+    <h4 bind:this={twoTwoThree}>2.2.3 Temporary Roster Expansion</h4>
+    <div class="subBlock">
+        <p>If any trades include future picks, the owner sending the picks has to have buy-ins paid at the time of the trade. (I.e. if the year is 2025 and someone wants to deal a 2028 pick they will have to pre-pay for the 2027 and 2028 season.)</p>
+    </div>
 
     <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
 
