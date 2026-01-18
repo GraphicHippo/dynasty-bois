@@ -271,7 +271,6 @@
         <li>The same concept will apply to teams eliminated from the semi-final round. The eliminated team with the lower score will receive the 7th pick in the draft, and the eliminated team with the higher score will receive the 8th pick in the following year’s draft.</li>
         <li>The lowest 4 teams (teams who didn’t make the playoffs) will be put in a lottery for the first pick. This is to disincentivize tanking.</li>
     </ul>
-    </div>
 
     <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
     <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
