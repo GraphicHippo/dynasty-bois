@@ -299,8 +299,8 @@
     <h3 bind:this={fourFive}>4.5 Divisions</h3>
     <p>Each week players will go head to head, matchups randomly determined at the beginning of the season. Each team will play for an additional win by comparing their score against the league scoring average for the week.</p>
 
-    <h3 bind:this={fourFive}>4.5 Divisions</h3>
-    <p>Each week players will go head to head, matchups randomly determined at the beginning of the season. Each team will play for an additional win by comparing their score against the league scoring average for the week.</p>
+    <h3 bind:this={fourSix}>4.6 Tirebreakers</h3>
+    <p>Matchup Tiebreaker rules will be as follows: Highest total points for (including all bench players), then a coin flip.</p>
 
     <h2 class="sectionHeading" bind:this={five}>Section 5 Waivers/Trades</h2>
     
