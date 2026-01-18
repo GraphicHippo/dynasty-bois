@@ -128,7 +128,6 @@
             <h5 class="noUnderscore clickable" onclick={() => goToSection(threeTwoOne)}>3.2.1 Requirements</h5>
             <h5 class="noUnderscore clickable" onclick={() => goToSection(threeTwoTwo)}>3.2.2 Violations</h5>
 
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(four)}>Section 4: Postseason</h3>
     <h3 class="noUnderscore clickable" onclick={() => goToSection(four)}>Section 4: Scoring</h3>
 
         <h4 class="noUnderscore clickable" onclick={() => goToSection(fourOne)}>4.1 Playoffs</h4>
