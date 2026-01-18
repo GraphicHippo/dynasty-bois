@@ -139,10 +139,12 @@
 
     <h3 class="noUnderscore clickable" onclick={() => goToSection(five)}>Section 5: Waivers/Trades</h3>
 
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(fiveOne)}>5.1 League Tanking Policy</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(fiveOne)}>5.1 Collusion</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(fiveTwo)}>5.2 Lending Players</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(fiveThree)}>5.3 Restrictions</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(fiveOne)}>5.1 Free Agents</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(fiveTwo)}>5.2 Trades</h4>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(threeOneOne)}>5.2.1 Collusion</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(threeOneTwo)}>5.2.2 Lending Players</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(threeOneThree)}>5.2.3 Restrictions</h5>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(fiveThree)}>5.3 Anti-Tanking</h4>
 
     <h3 class="noUnderscore clickable" onclick={() => goToSection(six)}>Section 6: Replacing Managers</h3>
     <h3 class="noUnderscore clickable" onclick={() => goToSection(six)}>Section 6: Playoffs</h3>
