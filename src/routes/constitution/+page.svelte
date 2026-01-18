@@ -280,6 +280,15 @@
         <li>1 point per 40+ yard rushing TD bonus</li>
     </ul>
 
+    <h3 bind:this={fourThree}>4.3 Recieving</h3>
+    <ul>
+        <li>0.5 points per reception</li>
+        <li>1 point per every 10 yards receiving</li>
+        <li>6 points per receiving TD</li>
+        <li>2 points per 2-point conversion</li>
+        <li>1 point per 40+ yard receiving TD bonus</li>
+    </ul>
+
     <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
     
     <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
