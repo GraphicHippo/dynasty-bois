@@ -213,8 +213,8 @@
 
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
 
-    <h3 bind:this={twoOne}>2.1 Draft Order</h3>
-    <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
+    <h3 bind:this={twoOne}>2.1 Start-Up</h3>
+    <p>The original draft was done in auction format with 28 rounds including Veterans and Rookies with a $500 budget per team.</p>
 
     <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
     <p>Rokkie drafts will consist of 3 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
