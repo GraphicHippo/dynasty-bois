@@ -130,14 +130,12 @@
 
     <h3 class="noUnderscore clickable" onclick={() => goToSection(four)}>Section 4: Scoring</h3>
 
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourOne)}>4.1 Playoffs</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourTwo)}>4.2 Playoff Tiebreakers</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(fourOne)}>4.1 Passing</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(fourTwo)}>4.2 Rushing</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourThree)}>4.3 Receiving</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourFour)}>4.4 Misc</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourFive)}>4.5 Divisions</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourSix)}>4.6 Tiebreakers</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourOne)}>4.1 Recieving</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourTwo)}>4.2 Misc</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourThree)}>4.3 Divisions</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourFour)}>4.4 Tiebreakers</h4>
 
     <h3 class="noUnderscore clickable" onclick={() => goToSection(five)}>Section 5: Tanking Policy</h3>
     <h3 class="noUnderscore clickable" onclick={() => goToSection(five)}>Section 5: Waivers/Trades</h3>
