@@ -146,13 +146,10 @@
             <h5 class="noUnderscore clickable" onclick={() => goToSection(threeOneThree)}>5.2.3 Restrictions</h5>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(fiveThree)}>5.3 Anti-Tanking</h4>
 
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(six)}>Section 6: Replacing Managers</h3>
     <h3 class="noUnderscore clickable" onclick={() => goToSection(six)}>Section 6: Playoffs</h3>
 
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixOne)}>6.1 Removing Managers</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixTwo)}>6.2 Replacing Managers</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixOne)}>6.1 Tiebreakers</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixOne)}>6.1 Format</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixTwo)}>6.2 Tiebreakers</h4>
 
     <h3 class="noUnderscore clickable" onclick={() => goToSection(seven)}>Section 7: League Finances</h3>
     <h3 class="noUnderscore clickable" onclick={() => goToSection(seven)}>Section 7: Rule Changes</h3>
@@ -337,16 +334,13 @@
         <li>Third Offense – A league meeting of all members not involved in any of the improper trades/activity in question will take place to discuss next steps.</li>
     </ul>
 
-    <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
+    <h2 class="sectionHeading" bind:this={six}>Section 6 Playoffs</h2>
     
-    <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
+    <h3 bind:this={sixOne}>6.1 Format</h3>
     <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally grounds for removal.</p>
     
-    <h3 bind:this={sixTwo}>6.2 Replacing Managers</h3>
+    <h3 bind:this={sixTwo}>6.2 Tiebreakers</h3>
     <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
-    
-    <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
-    <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reductioon on their first year buy-in.</p>
 
     <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
     
