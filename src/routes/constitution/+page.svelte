@@ -309,6 +309,12 @@
     <h3 bind:this={fiveOne}>5.1 Free Agents</h3>
     <p>Free agency will be handled with FAAB (free agency acquisition budget). Each team will have $100 for in-season free agency acquisitions, this budget is season-long and will not reset each week. The team who bids the most on each free agent will win the bid. FAAB will reset for the off-season and each team will have $100 that expires at the start of the league year.</p>
 
+    <h3 bind:this={fiveTwo}>5.2 Trades</h3>
+    <p>Free agency will be handled with FAAB (free agency acquisition budget). Each team will have $100 for in-season free agency acquisitions, this budget is season-long and will not reset each week. The team who bids the most on each free agent will win the bid. FAAB will reset for the off-season and each team will have $100 that expires at the start of the league year.</p>
+
+    <h3 bind:this={fiveThree}>5.3 Anti-Tanking</h3>
+    <p>Free agency will be handled with FAAB (free agency acquisition budget). Each team will have $100 for in-season free agency acquisitions, this budget is season-long and will not reset each week. The team who bids the most on each free agent will win the bid. FAAB will reset for the off-season and each team will have $100 that expires at the start of the league year.</p>
+
     <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
     
     <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
