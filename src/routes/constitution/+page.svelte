@@ -351,7 +351,8 @@
     </div>
 
     <h3 bind:this={sevenTwo}>7.2 Voting Process</h3>
-    <p>League payout is structured as follows:</p>
+    <p>To pass a rule change must be upheld by a super majority vote of at least 8 in favor of the change.</p>
+    <p>If a rule change receives 6-7 votes in favor of the change an amendment will be allowed to alter the suggestion slightly and it may be re-submitted for voting once more. Example: suggest changing the trade deadline from week 10 to week 12 only gets 6 votes. If the submitting manager wishes the rule may then be allowed to be altered to suggest a week 11 trade deadline and resubmit for voting.</p>
     
     <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
     <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
