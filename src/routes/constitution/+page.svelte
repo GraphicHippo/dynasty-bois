@@ -359,10 +359,10 @@
 
     <h2 class="sectionHeading" bind:this={eight}>Section 8 Manager Turnover</h2>
     
-    <h3 bind:this={eightOne}>8.1 Format</h3>
-    <p>The top 6 teams by record will compete in the single elmination playoffs, running from week 15 through week 17.</p>
+    <h3 bind:this={eightOne}>8.1 Removing</h3>
+    <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally not grounds for removal.</p>
     
-    <h3 bind:this={eightTwo}>8.2 Tiebreakers</h3>
-    <p>Who makes the playoffs in the result of a tie is total points for, then head to head record, then max points for, then a coin flip.</p>
+    <h3 bind:this={eightTwo}>8.2 Replacing</h3>
+    <p>When a manager needs to be replaced, the commissioners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
 
 </div>
