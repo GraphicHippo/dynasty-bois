@@ -301,7 +301,7 @@
     <h3 bind:this={fourFive}>4.5 Divisions</h3>
     <p>Each week players will go head to head, matchups randomly determined at the beginning of the season. Each team will play for an additional win by comparing their score against the league scoring average for the week.</p>
 
-    <h3 bind:this={fourSix}>4.6 Tirebreakers</h3>
+    <h3 bind:this={fourSix}>4.6 Tiebreakers</h3>
     <p>Matchup Tiebreaker rules will be as follows: Highest total points for (including all bench players), then a coin flip.</p>
 
     <h2 class="sectionHeading" bind:this={five}>Section 5 Waivers/Trades</h2>
@@ -310,7 +310,7 @@
     <p>Free agency will be handled with FAAB (free agency acquisition budget). Each team will have $100 for in-season free agency acquisitions, this budget is season-long and will not reset each week. The team who bids the most on each free agent will win the bid. FAAB will reset for the off-season and each team will have $100 that expires at the start of the league year.</p>
 
     <h3 bind:this={fiveTwo}>5.2 Trades</h3>
-    <p>Free agency will be handled with FAAB (free agency acquisition budget). Each team will have $100 for in-season free agency acquisitions, this budget is season-long and will not reset each week. The team who bids the most on each free agent will win the bid. FAAB will reset for the off-season and each team will have $100 that expires at the start of the league year.</p>
+    <p>Trades will be open during the off season as soon as the new league starts with a deadline of week 10.</p>
 
     <h3 bind:this={fiveThree}>5.3 Anti-Tanking</h3>
     <p>If any owners are suspected of accepting bribes/offering bribes to enhance their/another owners team via trade, trading any assets other than fantasy players, draft picks, FAAB $, or otherwise found guilty of engaging in any form of collusion, all parties involved in the trade will be susceptible to punishment. The punishments will go as followed:</p>
