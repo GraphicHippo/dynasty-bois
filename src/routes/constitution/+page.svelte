@@ -339,18 +339,19 @@
     <h3 bind:this={sixTwo}>6.2 Tiebreakers</h3>
     <p>Who makes the playoffs in the result of a tie is total points for, then head to head record, then max points for, then a coin flip.</p>
 
-    <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
+    <h2 class="sectionHeading" bind:this={seven}>Section 7 Rule Changes</h2>
     
-    <h3 bind:this={sevenOne}>7.1 League Dues</h3>
+    <h3 bind:this={sevenOne}>7.1 Proposals</h3>
     <p>League dues are set at ${dues}. Dues are collected through <a href="https://www.leaguesafe.com/league/3949641">LeagueSafe</a> and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be addd to their payment and will go towards the payouts at the end of the year.</p>
-    
-    <h3 bind:this={sevenTwo}>7.2 Payout</h3>
+
+    <h4 bind:this={sevenOneOne}>7.1.1 How to Submit</h4>
+    <div class="subBlock">
+        <p>All trades that are found guilty of collusion, will be reversed/denied. If the trade had affected the outcome of previous games, the results of those games will be revised.</p>
+        <p>The commissioner will err on the side of letting owners manage their teams the way they see fit. Any collusion will need to be clear. The commissioner reserves the right to step in and at the very least assess the thinking of any team involved in a heavily lop-sided trade.</p>
+    </div>
+
+    <h3 bind:this={sevenTwo}>7.2 Voting Process</h3>
     <p>League payout is structured as follows:</p>
-    <ul>
-        <li>1st place: ${dues * 8}</li>
-        <li>2nd place: ${dues * 1}</li>
-    </ul>
-    <p>$50 goes into the league “pot” each season and is paid out to the first team to win three championships total. Each season you are paying for next years fee. You forfeit next years fee if you drop out.</p>
     
     <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
     <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
