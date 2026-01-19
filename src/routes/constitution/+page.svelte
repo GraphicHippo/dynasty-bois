@@ -320,12 +320,13 @@
 
     <h4 bind:this={fiveTwoTwo}>5.2.2 Lending Players</h4>
     <div class="subBlock">
-        <p>19 players.</p>
+        <p>Any player traded from a team may not be re-acquired via trade within 6 weeks of the original trade. Any teams involved in this behavior will be subject to the aforementioned collusion punishments.</p>
     </div>
 
     <h4 bind:this={fiveTwoThree}>5.2.3 Restrictions</h4>
     <div class="subBlock">
-        <p>A taxi squad is a set number of players on your roster who do not count toward your overall roster limit. A maximum of 4 rookies can be added to your taxi prior to the start of the regular season. Players with more than 2 years of experience must be removed from the taxi. Once a players is activiated they cannot be re-added to the taxi squad.</p>
+        <p>You will not be able to trade draft picks that are more than 3 drafts away. For example, during the 2025 season you cannot trade any picks in or after the 2029 draft. You may only trade FAAB $ from the current season.</p>
+        <p>After the rookie draft has been completed for the current year, draft picks for the draft three years in the future will be added to all manager’s rosters. (For example after the 2026 rookie draft, the 2029 draft picks will be added.)</p>
     </div>
 
     <h3 bind:this={fiveThree}>5.3 Anti-Tanking</h3>
