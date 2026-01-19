@@ -151,14 +151,11 @@
         <h4 class="noUnderscore clickable" onclick={() => goToSection(sixOne)}>6.1 Format</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(sixTwo)}>6.2 Tiebreakers</h4>
 
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(seven)}>Section 7: League Finances</h3>
     <h3 class="noUnderscore clickable" onclick={() => goToSection(seven)}>Section 7: Rule Changes</h3>
 
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenOne)}>7.1 League Dues</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixTwo)}>7.2 Payout</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixThree)}>7.3 Raising Dues</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenOne)}>7.1 Voting Process</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenTwo)}>7.2 How to Submit</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenOne)}>7.1 Proposals</h4>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(sevenOneOne)}>7.1.1 How to Submit</h5>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenTwo)}>7.2 Voting Process</h4>
 
 <h3 class="noUnderscore clickable" onclick={() => goToSection(eight)}>Section 8: Manager Turnover</h3>
     
