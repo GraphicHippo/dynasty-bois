@@ -312,17 +312,18 @@
     <h3 bind:this={fiveTwo}>5.2 Trades</h3>
     <p>Trades will be open during the off season as soon as the new league starts with a deadline of week 10.</p>
 
- <h4 bind:this={fiveTwoOne}>5.2.1 Starters</h4>
+    <h4 bind:this={fiveTwoOne}>5.2.1 Collusion</h4>
     <div class="subBlock">
-        <p>9 total players. 1 QB, 2 RB, 2 WR, 1 TE, 2 Flex (RB/WR/TE), 1 Super Flex (RB/WR/TE/QB)</p>
+        <p>All trades that are found guilty of collusion, will be reversed/denied. If the trade had affected the outcome of previous games, the results of those games will be revised.</p>
+        <p>The commissioner will err on the side of letting owners manage their teams the way they see fit. Any collusion will need to be clear. The commissioner reserves the right to step in and at the very least assess the thinking of any team involved in a heavily lop-sided trade.</p>
     </div>
 
-    <h4 bind:this={fiveTwoTwo}>5.2.2 Bench</h4>
+    <h4 bind:this={fiveTwoTwo}>5.2.2 Lending Players</h4>
     <div class="subBlock">
         <p>19 players.</p>
     </div>
 
-    <h4 bind:this={fiveTwoThree}>5.2.3 Taxi</h4>
+    <h4 bind:this={fiveTwoThree}>5.2.3 Restrictions</h4>
     <div class="subBlock">
         <p>A taxi squad is a set number of players on your roster who do not count toward your overall roster limit. A maximum of 4 rookies can be added to your taxi prior to the start of the regular season. Players with more than 2 years of experience must be removed from the taxi. Once a players is activiated they cannot be re-added to the taxi squad.</p>
     </div>
