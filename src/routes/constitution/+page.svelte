@@ -159,8 +159,8 @@
 
 <h3 class="noUnderscore clickable" onclick={() => goToSection(eight)}>Section 8: Manager Turnover</h3>
     
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(eightOne)}>7.1 Removing</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(eightTwo)}>7.2 Replacing</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(eightOne)}>8.1 Removing</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(eightTwo)}>8.2 Replacing</h4>
 
 
     <hr />
@@ -356,5 +356,13 @@
     
     <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
     <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
+
+    <h2 class="sectionHeading" bind:this={eight}>Section 8 Manager Turnover</h2>
+    
+    <h3 bind:this={eightOne}>8.1 Format</h3>
+    <p>The top 6 teams by record will compete in the single elmination playoffs, running from week 15 through week 17.</p>
+    
+    <h3 bind:this={eightTwo}>8.2 Tiebreakers</h3>
+    <p>Who makes the playoffs in the result of a tie is total points for, then head to head record, then max points for, then a coin flip.</p>
 
 </div>
