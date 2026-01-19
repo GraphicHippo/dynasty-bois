@@ -337,10 +337,10 @@
     <h2 class="sectionHeading" bind:this={six}>Section 6 Playoffs</h2>
     
     <h3 bind:this={sixOne}>6.1 Format</h3>
-    <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally grounds for removal.</p>
+    <p>The top 6 teams by record will compete in the single elmination playoffs, running from week 15 through week 17.</p>
     
     <h3 bind:this={sixTwo}>6.2 Tiebreakers</h3>
-    <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
+    <p>Who makes the playoffs in the result of a tie is total points for, then head to head record, then max points for, then a coin flip.</p>
 
     <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
     
