@@ -313,7 +313,12 @@
     <p>Free agency will be handled with FAAB (free agency acquisition budget). Each team will have $100 for in-season free agency acquisitions, this budget is season-long and will not reset each week. The team who bids the most on each free agent will win the bid. FAAB will reset for the off-season and each team will have $100 that expires at the start of the league year.</p>
 
     <h3 bind:this={fiveThree}>5.3 Anti-Tanking</h3>
-    <p>Free agency will be handled with FAAB (free agency acquisition budget). Each team will have $100 for in-season free agency acquisitions, this budget is season-long and will not reset each week. The team who bids the most on each free agent will win the bid. FAAB will reset for the off-season and each team will have $100 that expires at the start of the league year.</p>
+    <p>If any owners are suspected of accepting bribes/offering bribes to enhance their/another owners team via trade, trading any assets other than fantasy players, draft picks, FAAB $, or otherwise found guilty of engaging in any form of collusion, all parties involved in the trade will be susceptible to punishment. The punishments will go as followed:</p>
+    <ul>
+        <li>First Offense – Immediate reduction of FAAB budget by 80%</li>
+        <li>Second Offense – Immediate freeze on all transaction types for the next 18 weeks of regular season and playoff fantasy football games, including trades and waiver wire bids</li>
+        <li>Third Offense – A league meeting of all members not involved in any of the improper trades/activity in question will take place to discuss next steps.</li>
+    </ul>
 
     <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
     
