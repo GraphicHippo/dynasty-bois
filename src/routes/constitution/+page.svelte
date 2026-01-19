@@ -342,7 +342,8 @@
     <h2 class="sectionHeading" bind:this={seven}>Section 7 Rule Changes</h2>
     
     <h3 bind:this={sevenOne}>7.1 Proposals</h3>
-    <p>League dues are set at ${dues}. Dues are collected through <a href="https://www.leaguesafe.com/league/3949641">LeagueSafe</a> and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be addd to their payment and will go towards the payouts at the end of the year.</p>
+    <p>At the end of each league year each team will have the opportunity to submit one proposed rule change. Once all proposed rule changes have been submitted, they will be put to a vote by the league.</p>
+    <p>All rule submissions are due by the first Monday in February. All rule voting will be completed in the following week.</p>
 
     <h4 bind:this={sevenOneOne}>7.1.1 How to Submit</h4>
     <div class="subBlock">
