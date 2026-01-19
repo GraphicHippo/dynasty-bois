@@ -347,8 +347,7 @@
 
     <h4 bind:this={sevenOneOne}>7.1.1 How to Submit</h4>
     <div class="subBlock">
-        <p>All trades that are found guilty of collusion, will be reversed/denied. If the trade had affected the outcome of previous games, the results of those games will be revised.</p>
-        <p>The commissioner will err on the side of letting owners manage their teams the way they see fit. Any collusion will need to be clear. The commissioner reserves the right to step in and at the very least assess the thinking of any team involved in a heavily lop-sided trade.</p>
+        <p>Proposed changes should be submitted directly to the commissioner (Riley aka Rjkirk) via Sleeper DM, Text or Email. </p>
     </div>
 
     <h3 bind:this={sevenTwo}>7.2 Voting Process</h3>
